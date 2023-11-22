@@ -1,6 +1,6 @@
 {
   "name": "@mastashake08/dash-transformer",
-  "version": "1.0.0-alpha",
+  "version": "1.0.1-alpha",
   "description": "JavaScript TransformStream for sending video data over DASH protocol",
   "author": "Jyrone Parker <jyrone.parker@gmail.com>",
   "main": "index.js",
