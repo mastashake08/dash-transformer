@@ -1,3 +1,5 @@
-module.exports = function () {
-  return 'dash-transformer';
-};
+import { DashTransformer } from "./classes/DashTransformer";
+
+export {
+  DashTransformer
+}

@@ -19,37 +19,7 @@ cd dash-transformer
 
 ## Usage
 
-Rename package (use [npm-package-name-checker](https://mastashake08.org/npm-package-name-checker/) to check for name availability):
-
-```sh
-# replace $NAME with your package name
-git grep -l dash-transformer | xargs sed -i '' -e "s/dash-transformer/$NAME/g"
-```
-
-Manually update the files:
-
-- [ ] LICENSE
-- [ ] README.md
-- [ ] package.json
-
-Reinitialize Git repository:
-
-```sh
-rm -rf .git
-git init
-```
-
-Install package dependencies:
-
-```sh
-npm install
-```
-
-Make first commit:
-
-```sh
-git commit -am "feat: initial commit"
-```
+TODO
 
 ## Testing
 
@@ -106,12 +76,6 @@ npm pack --dry-run
 # tar tvf $(npm pack)
 ```
 
-## Support
-
-- [Patreon](https://b.remarkabl.org/patreon)
-- [Ko-fi](https://b.remarkabl.org/ko-fi)
-- [Liberapay](https://b.remarkabl.org/liberapay)
-- [Teepsring](https://b.remarkabl.org/teespring)
 
 ## License
 
