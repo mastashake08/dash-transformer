@@ -10,7 +10,7 @@ class DashTransformer extends TransformStream {
     transform(chunk, controller) {
         const file = new File([chunk],`${this.num}.webm`)
         this.generator.next(file)
-        controller.enqueue(chunk);
+        controller.enqueue(chunk)
       }
 
      *sendVideoChunk(file = null) {

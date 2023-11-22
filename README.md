@@ -19,7 +19,10 @@ cd dash-transformer
 
 ## Usage
 
-TODO
+```javascript
+import { DashTransformer } from '@mastashake08/dash-transformer'
+readable.pipeThrough(new DashTransformer(digestUrl)).pipeTo(writable)
+```
 
 ## Testing
 
